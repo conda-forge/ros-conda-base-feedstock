@@ -1,6 +1,6 @@
 package:
   name: ros-conda-base
-  version: 0.0.1
+  version: 0.0.2
 
 build:
   number: 0
@@ -10,10 +10,10 @@ requirements:
   run:
     - ros-conda-mutex * melodic
   run_constrained:
-    - boost 1.68.*
+    - boost-cpp 1.70
     - cmake >=3.7.2
     - gazebo >=9.0
-    - ogre3d >=3.2
+    - ogre >=1.9
     - opencv >=3.2
     - pcl >=1.8.1
     - pyqt >=5.7
