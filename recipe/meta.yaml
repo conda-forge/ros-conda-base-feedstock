@@ -3,10 +3,12 @@ package:
   version: 0.0.2
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
+  host:
+    - boost-cpp 1.70.*
   run:
     - ros-conda-mutex * melodic
   run_constrained:
