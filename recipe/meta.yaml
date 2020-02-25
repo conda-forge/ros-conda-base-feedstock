@@ -3,16 +3,16 @@ package:
   version: 0.0.2
 
 build:
-  number: 1
+  number: 2
   noarch: generic
 
 requirements:
   host:
-    - boost-cpp 1.70.*
+    - boost-cpp
   run:
     - ros-conda-mutex * melodic
   run_constrained:
-    - boost-cpp 1.70
+    - boost-cpp
     - cmake >=3.7.2
     - gazebo >=9.0
     - ogre >=1.9
